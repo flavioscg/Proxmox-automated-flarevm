@@ -1,0 +1,4 @@
+*.DS_Store
+*.pages
+*.out
+__pycache__
