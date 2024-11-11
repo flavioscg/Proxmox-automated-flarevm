@@ -4,6 +4,7 @@
 This script automates the process of creating a Windows virtual machine on Proxmox, complete with custom configurations and driver installations, making it ready for [FlareVM](https://github.com/mandiant/flare-vm). The script mounts a Windows ISO, customizes it with `autounattend.xml` for a smooth installation, and sets up necessary VirtIO drivers for optimal performance in a Proxmox environment. Following VM creation, you’ll be able to complete the FlareVM installation with the provided PowerShell script.
 
 ## Requirements
+- **Git** installed on your Proxmox node
 - **Internet connection** – Internet access is necessary for script downloads during the FlareVM setup, and it is a fundamental requirement for FlareVM’s installation process.
 - **Windows 10 Official ISO** in the same directory as the other repository files https://www.microsoft.com/en-gb/software-download/windows10iso
 - **Patience & Coffee** ☕️ – This process will take some time!
