@@ -1,0 +1,2 @@
+# Proxmox-automated-flarevm
+ This script automates the process of creating a Windows virtual machine on Proxmox, complete with custom configurations and driver installations, making it ready for FlareVM. The script mounts a Windows ISO, customizes it with `autounattend.xml` for a smooth installation, and sets up necessary VirtIO drivers for optimal performance in a Proxmox environment. Following VM creation, you’ll be able to complete the FlareVM installation with the provided PowerShell script.
