@@ -37,30 +37,30 @@ chmod +x start.sh
 
 3. **Go to the created and started VM, you should be presented with the disk selection screen**. You won't see any disk because you need to load the VirtIO drivers first. Click **Load**, then **OK**, and select the VirtIO drivers.
 
-   ![VirtIO Driver Screenshot](screenshots/virtio.png)
+![VirtIO Driver Screenshot](screenshots/virtio.png)
 
-   If you don't see any drivers, try clicking **Rescan**.
+If you don't see any drivers, try clicking **Rescan**.
 
 4. **Choose the available disk** created in the initial configuration and start the Windows installation.
 
-   ![HDD Selection Screenshot](screenshots/hdd.png)
+![HDD Selection Screenshot](screenshots/hdd.png)
 
 5. **Continue with the installation** and wait for the process to complete. Once done, you will find the `install-flarevm.ps1` script on the desktop.
 
 6. **Run the post-installation**
-   - Open PowerShell as Administrator
-     ![PowerShell Screenshot](screenshots/powershell.png)
+- Open PowerShell as Administrator
+![PowerShell Screenshot](screenshots/powershell.png)
 
-   - Move to the Desktop directory
-     ```powershell
-     cd Desktop
-     ```
-   - Run the pre-FlareVM script:
-     ```powershell
-     .\pre-flarevm.ps1
-     ```
+- Move to the Desktop directory
+```powershell
+cd Desktop
+```
+- Run the pre-FlareVM script:
+```powershell
+.\pre-flarevm.ps1
+```
 
-   The script will disable **Antimalware** and **Windows Update**, and then launch the FlareVM installation. Follow the on-screen instructions.
+The script will disable **Antimalware** and **Windows Update**, and then launch the FlareVM installation. Follow the on-screen instructions.
 
 7. **Final Snapshot**: Create a snapshot of the VM for future restores. ⚠️
 
