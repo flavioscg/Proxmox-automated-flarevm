@@ -6,7 +6,7 @@ This script automates the process of creating a Windows virtual machine on Proxm
 ## Requirements
 - **Git** installed on your Proxmox node
 - **Internet connection** – Internet access is necessary for script downloads during the FlareVM setup, and it is a fundamental requirement for FlareVM’s installation process.
-- **Windows 10 Official ISO** in the same directory as the other repository files https://www.microsoft.com/en-gb/software-download/windows10iso
+- **Windows 10 Official ISO** in the same directory as the other repository files. You can find the iso image at https://www.microsoft.com/en-gb/software-download/windows10iso or https://os.click/.
 - **Patience & Coffee** ☕️ – This process will take some time!
 
 ### Steps
