@@ -11,11 +11,23 @@ This script automates the process of creating a Windows virtual machine on Proxm
 
 ### Steps
 1. **Clone the repository** to get all necessary files.
-    ```bash
-    git clone https://github.com/flavioscg/Proxmox-automated-flarevm.git
-    cd Proxmox-automated-flarevm
-    chmod +x start.sh
-    ```
+Clone the repository using the following command:
+
+```bash
+git clone https://github.com/flavioscg/Proxmox-automated-flarevm.git
+```
+
+Navigate into the project directory:
+
+```bash
+cd Proxmox-automated-flarevm
+```
+
+Set the correct execution permissions for the `start.sh` script:
+
+```bash
+chmod +x start.sh
+```
 
 2. **Run the script and answer the prompts**:
     ```bash
