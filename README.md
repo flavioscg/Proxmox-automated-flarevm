@@ -30,10 +30,10 @@ chmod +x start.sh
 ```
 
 2. **Run the script and answer the prompts**:
-    ```bash
-    ./start.sh
-    ```
-    > The script will ask for the ISO name, VM ID, RAM, cores, and disk size. **Note**: At least 60 GB is required to meet FlareVM's needs.
+```bash
+./start.sh
+```
+> The script will ask for the ISO name, VM ID, RAM, cores, and disk size. **Note**: At least 60 GB is required to meet FlareVM's needs.
 
 3. **Go to the created and started VM, you should be presented with the disk selection screen**. You won't see any disk because you need to load the VirtIO drivers first. Click **Load**, then **OK**, and select the VirtIO drivers.
 
